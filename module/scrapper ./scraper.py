@@ -1,5 +1,3 @@
-#Author - Shivam Kapoor (ConanKapoor).
-
 #Importing Essentials
 import urllib.request
 from bs4 import BeautifulSoup
