@@ -1,5 +1,3 @@
-# Author - Shivam Kapoor (ConanKapoor).
-
 # Importing Essentials
 from multiprocessing import Pool
 from pyfiglet import Figlet
