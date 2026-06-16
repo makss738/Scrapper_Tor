@@ -1,5 +1,3 @@
-#Author - Abhishek Singh(absingh31).
-
 from crawl_bot import Crawl_bot
 from file_manage import *
 from queue import Queue
