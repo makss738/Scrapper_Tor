@@ -4,12 +4,12 @@ from pyfiglet import Figlet
 import os
 
 # Opening onions directory. To scrape links add the same in onions.txt
-with open("onions.txt", "r") as onion:
+with open("onion.txt", "r") as onion:
     content = onion.read().splitlines()
 
 # Terminal Process to edit Onions.txt using nano.(Only for Gnome at the moment).
 def ExecuteEditor():
-    execute = "nano onions.txt"
+    execute = "nano onion.txt"
     os.system(execute)
 
 # Terminal Process for Crawler (Only for Gnome at the moment).
@@ -45,7 +45,7 @@ def Banner():
     banner = Figlet(font='slant')
     print (banner.renderText('TorScraper'))
     print ("<---------WELCOME TO TORSCRAPER PROGRAM--------->")
-    print ("<---------v1.0 - Author - Conan Kapoor--------->")
+    print ("<---------v1.0 - Author - MONKAM Maxence--------->")
     print ("\n")
 
 # Menu given to users. Eat away!
