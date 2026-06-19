@@ -14,12 +14,12 @@ def ExecuteEditor():
 
 # Terminal Process for Crawler (Only for Gnome at the moment).
 def ExecuteCrawler(url):
-    execute = str('gnome-terminal -e \' python3 Modules/Crawler/crawl.py ' + url + '\'')
+    execute = str('gnome-terminal -e \' python3 Modules/crawler./crawl.py ' ' + url + '\'')
     os.system(execute)
 
 # Terminal Process for Scraper (Only for Gnome at the moment).
 def ExecuteScraper(url):
-    execute = str('gnome-terminal -e \'python3 Modules/Scraper/Scrape.py ' + url + '\'')
+    execute = str('gnome-terminal -e \'python3 module/scraper/scraper.py ' + url + '\'')
     print (execute)
     os.system(execute)
 
