@@ -14,7 +14,7 @@ def ExecuteEditor():
 
 # Terminal Process for Crawler (Only for Gnome at the moment).
 def ExecuteCrawler(url):
-    execute = str('gnome-terminal -e \' python3 Modules/crawler./crawl.py ' ' + url + '\'')
+    execute = str('gnome-terminal -e \' python3 module/crawler./crawl.py ' ' + url + '\'')
     os.system(execute)
 
 # Terminal Process for Scraper (Only for Gnome at the moment).
